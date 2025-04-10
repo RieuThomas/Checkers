@@ -1,0 +1,41 @@
+.checkboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 3px;
+    width: max-content;
+    margin: auto
+}
+
+.whiteTile {
+    background-color: rgb(200, 180, 141);
+
+}
+
+.blackTile {
+    background-color: rgb(119, 98, 52);
+
+}
+
+.blackTile,
+.whiteTile {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+
+img {
+    width: 50px;
+    margin-top: 10px;
+}
+
+img:hover {
+    cursor: grab;
+}
+
+img:active {
+    cursor: grabbing;
+}
+
+div[name="isEnable"] {
+    background-color: aqua;
+}
